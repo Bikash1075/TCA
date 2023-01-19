@@ -11,13 +11,13 @@
 # Output Format:
 
 # A single line containing a sorted list.
-
+# solution 1
 n = int(input())
 a = [input() for i in range(n)]
 a.sort(key=lambda x:x[-2])
 print(a)
 
-
+# solution 2
 def sl(a):
     return a[-2]
 n = int(input())
@@ -25,7 +25,7 @@ a = [input() for i in range(n)]
 a_sort = sorted(a,key=sl)
 print(a_sort)
 
-
+# solution 3
 n = int(input())
 a = [input() for i in range(n)]
 for i in a:
