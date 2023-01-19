@@ -11,6 +11,7 @@
 # Output Format:
 
 # A single line containing a sorted list.
+
 # solution 1
 n = int(input())
 a = [input() for i in range(n)]
